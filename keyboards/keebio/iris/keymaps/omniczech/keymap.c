@@ -23,11 +23,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LAYER0] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                               KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
+     KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                               KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,                               KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_DEL,
+     KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,                               KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_EQL,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_GRAVE, LCTL_T(KC_A),   LALT_T(KC_R),   LGUI_T(KC_S),   LSFT_T(KC_T),    KC_G,                               KC_M,    LSFT_T(KC_N),   LGUI_T(KC_E),   LALT_T(KC_I),   LCTL_T(KC_O),    KC_QUOT,
+     KC_GRAVE, LCTL_T(KC_A),   LALT_T(KC_R),   LGUI_T(KC_S),   LSFT_T(KC_T),    KC_G, KC_M,    LSFT_T(KC_N),   LGUI_T(KC_E),   LALT_T(KC_I),   LCTL_T(KC_O),    KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      OSM(MOD_LSFT), KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_HOME,          KC_END,  KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
@@ -85,7 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,---------+---------------+---------------+---------------+---------------+-------------.  .--------------+---------------+---------------+---------------+---------------+---------, 
     KC_GRAVE,   KC_4,           KC_5,           KC_6,           KC_MINS,        KC_NO,          KC_RGUI,        KC_RALT,        KC_RCTL,        KC_NO,          KC_NO,          KC_QUOT, 
   //,---------+---------------+---------------+---------------+---------------+-------------.  .--------------+---------------+---------------+---------------+---------------+---------, 
-    OSM(MOD_LSFT),KC_1,         KC_2,           KC_3,           KC_EQL,         KC_NO,       KC_HOME,          KC_END,    KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
+    OSM(MOD_LSFT),KC_1,         KC_2,           KC_3,           KC_DOT,         KC_NO,       KC_HOME,          KC_END,    KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO, 
                                              //,--------------+---------------+-------------.  .--------------+---------------+--------, 
                                                 KC_NO,          KC_NO,          OSM(MOD_LGUI),   KC_ENT,         KC_BSPC,        KC_LGUI
                                              //,--------------+---------------+-------------.  .--------------+---------------+--------, 
